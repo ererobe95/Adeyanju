@@ -72,9 +72,12 @@ body {
 	display:block;
 	animation:animate__animated animate__fadeInLeft;
 }
+i {
+	color:blue;
+}
 /*FOOTER*/
  .sm{
-	 position:fixed;
+	
 	 text-align:center;
 	 z-index:1;
  }
@@ -116,7 +119,6 @@ body {
 	}
 	/*FOOTER*/
    	 .sm{
-		 position:fixed;
 		 text-align:center;
 		 z-index:1;
  }
