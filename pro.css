@@ -124,7 +124,18 @@ body {
 }
 
 @media (min-width:768px) and (max-width:991px){
-	
+	#body {
+		position:absolute;
+		left:8%;
+		margin-left:-50px !important;
+		font-size: 20px;
+		display:block;
+		vertical-align:center;
+		font-weight:bold;
+		font-family: 'Lemonada', cursive;
+		padding:0;
+		padding-top:10px;
+   }
 }
 
 @media (min-width:992px) and (max-width:1199px){
