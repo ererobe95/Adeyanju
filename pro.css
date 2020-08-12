@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding:0;
+	background-color:#f1eee4;	
+	color:white;
+	font-family: 'Recursive', sans-serif;
+}
+#body {
+	position:absolute;
+	left:10%;
+	margin-left:-50px !important;
+	font-size: 22px;
+	display:block;
+	vertical-align:center;
+	font-weight:bold;
+	font-family: 'Lemonada', cursive;
+	padding:0;
+	z-index:1;
+}
+#body a {
+	text-decoration:none;
+	color:black;
+}
+#body a:hover {
+	color:maroon;
+}
+.navbar {
+	margin-bottom:20px;
+	padding:0;
+}
+.nav-item {
+ margin-right:40px;
+ font-size:20px;
+}
+#nav-list {
+	margin-top:10px;
+}
+
+#nav-list a{
+	color:#951C49;
+}
+
+#nav-list a:hover{
+	color:blue;
+}
+i {
+	color:blue;
+}
+/*END OF HEADER*/
+.row {
+	margin:0 20px;
+}
+.images {
+	width:200px;
+}
+.picture img {
+	width:auto;
+	display:block;
+	margin-left:0;
+	margin-bottom:20px;
+	padding-right:0;
+}
+.picture img:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+.picture .par {
+	display:none;
+}
+.picture:hover .par{
+	display:block;
+	animation:animate__animated animate__fadeInLeft;
+}
+
+/*FOOTER*/
+ .sm{
+	 text-align:center;
+	 z-index:1;
+ }
+  .sm i{
+	  margin:20px 40px;
+	  
+ }
+
+	
+/*@media (min-width:240px)and(max-width:290px){
+	#body {
+		position:fixed;
+		margin-left:20px !important;
+		font-size: 9px !important;
+		display:block;
+		text-align:center;
+	}
+}*/
+	
+	
+@media (max-width:575px){
+	
+	#body {
+		position:fixed;
+		margin-left:60px !important;
+		font-size: 14px;
+		display:block;
+		text-align:center;
+		padding-top:10px;
+	}
+	/*MAIN PAGE*/
+	#bg {
+		position:fixed;
+		width:220%;
+		height:250%;
+		padding:0;
+		right:-70%;
+		top:-2%;
+		
+	}
+  /*FOOTER*/
+ .sm{
+	 
+	 text-align:center;
+	 z-index:1;
+ }
+  .sm i{
+	  margin:20px 20px;
+	  font-size:16px;
+	  
+ }
+		
+}
+
+@media (min-width:576px) and (max-width:767px){
+	#body {
+		position:fixed;
+		margin-left:120px !important;
+		font-size: 22px;
+		display:block;
+		text-align:center;
+		padding-top:10px;
+	}
+	
+	
+	#bg {
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	#body {
+		position:absolute;
+		left:8%;
+		margin-left:-50px !important;
+		font-size: 20px;
+		display:block;
+		vertical-align:center;
+		font-weight:bold;
+		font-family: 'Lemonada', cursive;
+		padding:0;
+		padding-top:10px;
+    }
+	.nav-item {
+	 margin-right:25px;
+ 	 font-size:18px;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	
+}
+@media (min-width:1200px){
+	/*#bg {
+		position:fixed;
+		width:220%;
+		height:220%;
+		padding:0;
+		right:-120%;
+		top:-30%;
+	}
+		
+}*/
