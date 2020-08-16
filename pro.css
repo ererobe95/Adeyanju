@@ -102,7 +102,7 @@ i {
 	 margin-top:0;
  }
  .project-pic .row img {
-		height:250px;
+		height:100%;
 		width:100%;
  }
  .project-pic .row div{
