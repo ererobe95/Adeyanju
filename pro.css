@@ -42,6 +42,10 @@ body {
 #nav-list a{
 	color:#951C49;
 }
+.navbar-toggler-icon{
+        height:1em;
+        width:1em
+}
 
 #nav-list a:hover{
 	color:blue;
