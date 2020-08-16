@@ -103,6 +103,7 @@ i {
  }
  .project-pic .row div{
 	 margin-bottom:10px;
+         margin-top:10px;
  }
  .project-pic .row div:hover{
  box-shadow: 0 1px 1px 1px #cccccc;
