@@ -75,7 +75,7 @@ i {
 	filter: grayscale(0) brightness(1);
 }
 /*Slider*/
-.slide{
+slide.{
 	background-color: white;
 	position: relative;
 	width: 100%;
@@ -176,7 +176,7 @@ footer{
 	background-color: white;
 	position: relative;
 	width: 100%;
-	height: 600px;
+	height: 100%;
 	overflow: hidden;
 	
 	display:;
@@ -185,11 +185,11 @@ footer{
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 600px;
+	height: 100%;
  }
  .carousel-item img{
 	 width:100%;
-	 height:600px;
+	 height:100%;
  }
   /*FOOTER*/
   footer h3{
