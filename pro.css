@@ -38,19 +38,24 @@ body {
 	margin-top:10px;
 }
 
-#nav-list a{
-	color:#951C49;
-}
 .navbar-toggler-icon{
         height:1em;
         width:1em
 }
 
-#nav-list a:hover{
-	color:blue;
+.navbar .navbar-nav > li > a:hover {
+    color: white;
+    background-color: red;
 }
-#nav-list a:active{
-	background-color:#e9edf6;
+
+.navbar .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: white !important;
+    background-color: red;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 i {
 	color:blue;
