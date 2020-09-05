@@ -102,6 +102,18 @@ i {
 .col{
 	 padding:0;
  }
+.carousel .carousel-control-prev-icon {
+	 background-image: url(images/arrow_left.svg);
+ }
+ 
+ .carousel .carousel-control-next-icon {
+    background-image: url(images/arrow_right.svg);
+}
+
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 70px;
+    height: 70px;
+}
  /*PROJECTS PAGE*/
  .project{
 	 position:relative;
