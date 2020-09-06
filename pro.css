@@ -150,7 +150,7 @@ i {
  }
  
  .fr-window-skin-fresco .fr-side-button-icon, .fr-window-skin-fresco .fr-close-icon, .fr-window-skin-fresco .fr-thumbnails-side-button-icon, .fr-window-skin-fresco .fr-error-icon {
-    background-image: url(css/fresco/skins/fresco/sprite.svg);
+    background-image: url(css/sprite.svg);
 }
 .fr-container {
     background-color: #f1eee4;
