@@ -256,6 +256,11 @@ footer{
 	  margin:8px 8px;
 	  font-size:17px;  
     }
+	.project-pic .row div{
+	 margin-bottom:20px;
+         margin-top:20px;
+ }
+	
 	/*PORTFOLIOS*/
 	.portfolio .row img {
 		height:100%;
