@@ -155,6 +155,8 @@ i {
 .fr-container {
     background-color: #f1eee4;
 	border: 0px;
+    Width:100%;
+    Height: 100%
 }
 .fr-content-element {
     float: left;
