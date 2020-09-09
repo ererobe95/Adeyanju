@@ -310,7 +310,7 @@ footer{
  }
  
  .portfolio .row img:hover{
-	 transform:scale(1.1);
+	 transform:scale(1);
  }
   /*FOOTER*/
   footer h3{
@@ -344,7 +344,7 @@ footer{
 	}
 	
 	.lightbox .lb-image{
-		 width:500px !important;
+		 width:400px !important;
 	 	height:500px !important;
  }
 
