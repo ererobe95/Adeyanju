@@ -214,6 +214,10 @@ i {
 		width:100%;
  }
  
+.lightbox .lb-image{
+	 width:500px !important;
+	 height:500px !important;
+ }
 /*FOOTER*/
 footer{
 		background-color:#1b1811;
