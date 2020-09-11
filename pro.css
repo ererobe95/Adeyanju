@@ -254,6 +254,11 @@ footer{
 		right:-70%;
 		top:-2%;
 	}
+        .navbar-brand{
+                margin-right: 1rem;
+                margin-left: 1em;
+                font-size: 1em;
+        }
 	
 	/* ==============================LANDING PAGE =========================================== */
 	.content{
