@@ -304,15 +304,7 @@ footer{
 	 margin-top:20px;
 	 padding:0 30px;
  }
-
-	.portfolio .row img {
-		transition: 1s;
- }
- 
- .portfolio .row img:hover{
-	 transform:scale(1);
- }
-  /*FOOTER*/
+       /*FOOTER*/
   footer h3{
 	  font-size:16px;
   }
