@@ -113,6 +113,11 @@ body {
 	height:1em;
 	width:1.5em;
 }
+
+.navbar-light .navbar-toddler {
+        border:0;
+}
+
 .nav-item {
  margin-right:40px;
  font-size:20px;
