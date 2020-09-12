@@ -1,0 +1,456 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding:0;
+	background-color:#f1eee4;	
+	color:white;
+	font-family: 'Recursive';
+}
+#body {
+	position:absolute;
+	left:10%;
+	margin-left:-50px !important;
+	font-size: 22px;
+	display:block;
+	vertical-align:center;
+	font-weight:bold;
+	font-family: 'Montez';
+	padding:0;
+	z-index:;
+}
+#body a {
+	text-decoration:none;
+	color:#1b1811;
+}
+#body a:hover {
+	color:maroon;
+}
+
+.dropdown-item{
+	background-color:#f1eee4;
+	color:black;
+	border:0;
+}
+.dropdown-menu {
+    padding: 0;
+	margin:0;
+	overflow:hidden;
+}
+
+.fa-plus{
+	font-weight:600;
+	font-size:11px;
+}
+/* =================================================================================LANDING PAGE ================================================================= */
+.showcase::after{
+            content: '';
+            height: 100vh;
+            width: 100%;
+            background-image: url("images/land.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: block;
+			position:fixed;
+           
+            transition: all 1000ms;
+        }
+		.content{
+            position: absolute;
+            z-index: 1;
+            top: 10%;
+            left: 50%;
+            margin-top: 225px;
+            margin-left: -145px;
+            width: 300px;
+            height: 350px;
+			
+        }
+		.content h5{
+			color:black;
+			font-weight:900;
+
+		}
+        button{
+            border-radius:5px;
+			background-color:transparent;
+			color:maroon;
+			font-weight:900;
+			font-size: 1.5em;
+			transition:all ease;
+			font-family: 'Rouge Script', cursive;
+        }
+		
+		button:hover{
+			background-color:;
+		}
+		
+		.s-link{
+			position: absolute;
+            z-index: 1;
+            top: 10%;
+            left: 50%;
+            margin-top: 525px;
+            margin-left: -145px;
+            width: 300px;
+            height: 350px;
+			text-align:right;
+			
+		}
+		
+		.s-link a{
+			margin:0 20px;
+			color:white;
+			
+		}
+/* ======END OF LANDING PAGE =======*/
+.navbar {
+	margin-bottom:0;
+	padding:0;
+	box-shadow:0 !important;
+}
+
+.navbar-brand{
+	font-weight:700;
+}
+
+.navbar-nav .nav{
+	justify-content: end;	
+}
+	
+.navbar-toggler-icon{
+	height:1em;
+	width:1.5em;
+}
+.nav-item {
+ margin-right:40px;
+ font-size:20px;
+ font-weight:600;
+ 
+}
+.nav-item .nav-link{
+	
+}
+#nav-list {
+	margin-top:10px;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    color: black;
+    background-color: white;
+}
+
+.navbar .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: black !important;
+    background-color: white;
+}
+
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+i {
+	color:white;
+}
+
+.nav-item i{
+	color:blue;
+}
+
+.nav-item .dropdown-menu{
+	   background-color:black;
+	   color:white;
+	   opacity:.9;
+   }
+   
+.navbar-light .navbar-toggler {
+	border:0;
+}
+/*END OF HEADER*/
+/*=============================================================Slider=====================================================================================*/
+.slide{
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+  .carousel-item img{
+	 width:100%;
+ }
+ .carousel-indicators li{
+	 margin:15px;
+ }
+ .col{
+	 padding:0;
+ }
+ 
+ .carousel .carousel-control-prev-icon {
+	 background-image: url(images/arrow_left.svg);
+ }
+ 
+ .carousel .carousel-control-next-icon {
+    background-image: url(images/arrow_right.svg);
+}
+
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 70px;
+    height: 70px;
+}
+ /*=========================================================================PROJECTS PAGE and PORTFOLIOS=========================================================*/
+ .project{
+	 position:relative;
+	 display:block;
+	 vertical-align:center;
+	 height:100%;
+	 background-color: #4e4b4a;
+	 margin-top:0;
+ }
+ .project-pic .row img {
+		height:100%;
+		width:100%;
+
+ }
+ .project-pic .row div{
+	 margin-bottom:30px;
+	 margin-top: 30px;
+	 padding:15px 5px;
+ }
+ .statement{
+ color:black;
+ margin-bottom:10px;
+ text-align:center;
+ }
+ 
+ /*=================================================================PORTFOLIOS=======================================================================*/
+ 
+ .portfolio .row div{
+	 margin-bottom:2px;
+	 margin-top:2px;
+	 padding:2px;
+ }
+ 
+ .portfolio .row img {
+		height:100%;
+		width:100%;
+ }
+ 
+ .sec{
+	 margin-top:50px;
+ }
+/*FOOTER*/
+.panel-footer{
+		background-color:#1b1811;
+		color:white;
+		margin-top:0;
+		padding-top:35px;
+		padding-bottom:10px;
+		text-align:left;
+}
+.social{
+	text-align:left;
+}
+
+.mail{
+	margin-top:10px;
+}
+/*awesome fonts*/
+ .sm{
+	 text-align:center;
+	 z-index:1;
+ }
+  .sm i{
+	  margin:10px 10px;  
+ }/*End of awesome fonts*/
+ h3 a {
+	 display:inline;
+ }
+	
+@media only screen and (max-width:575px){
+	
+	#body {
+		position:fixed;
+		margin-left:30% !important;
+		font-size: 14px;
+		display:block;
+		text-align:center;
+		padding-top:10px;
+	}
+	/*INDEX INTRO WEBPAGE*/
+	#bg {
+		position:fixed;
+		width:220%;
+		height:250%;
+		padding:0;
+		right:-70%;
+		top:-2%;
+	}
+	.navbar-brand {
+    margin-right: 1rem;
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+	.navbar-nav{
+	text-align:center;	
+	}
+	.nav-item i{
+	  margin:8px 8px;
+	  font-size:17px;
+	  
+    }
+	
+	.nav-item{
+		margin: 0;
+	}
+	/* ==============================LANDING PAGE =========================================== */
+	.content{
+            position: absolute;
+            z-index: 1;
+            top: 10%;
+            left: 50%;
+            margin-top: 205px;
+            margin-left: -145px;
+            width: 300px;
+            height: 350px;
+            
+        }
+	 button{
+			font-size: 1em;
+			transition:all ease;
+        }
+	
+	/*END OF INDEX INTRO WEBPAGE*/
+	.nav-item{
+		font-size:14px;
+	}
+	/*body*/
+
+
+   /*Slider*/
+   .slide{
+	background-color: white;
+	position: relative;
+	width: 100%;
+}
+ 
+ .carousel-item img{
+	 width:100%;
+ }
+ .carousel-indicators li{
+	 margin:10px;
+ }
+ 
+ /*PORTFOLIOS*/
+	.project-pic .row div{
+	 margin-bottom:20px;
+	 margin-top:20px;
+	 padding: 0 30px;
+ }
+	.portfolio .row div{
+	 margin-bottom:20px;
+	 margin-top:20px;
+	 padding:0 30px;
+ }
+
+	.portfolio .row img {
+		transition: 1s;
+ }
+ 
+ .portfolio .row img:hover{
+	 transform:scale(1);
+ }
+ .project h3 {
+	 font-size:16px;
+	 fon: uppercase;
+ }
+  /*FOOTER*/
+  footer h3{
+	  font-size:16px;
+  }
+  .panel-footer{
+	  display:flex;
+	  justify-content: center !important;
+  }
+
+	
+	.social i{
+		margin:0 5px 0 0;
+		font-size:17px;
+	}
+	
+	.name{
+		font-size: 20px;
+		font-weight: 600;
+		color: #007bff;
+	}
+}
+
+@media (min-width:576px) and (max-width:767px){
+	#body {
+		position:fixed;
+		margin-left:120px !important;
+		font-size: 22px;
+		display:block;
+		text-align:center;
+		padding-top:10px;
+	}
+	/*PROJECT*/
+	.project{
+		font-size:1em;
+	}
+	
+	.lightbox .lb-image{
+	 width:500px !important;
+	 height:500px !important;
+ }
+	
+	#bg {
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	#body {
+		position:absolute;
+		left:8%;
+		margin-left:-50px !important;
+		font-size: 20px;
+		display:block;
+		vertical-align:center;
+		font-weight:bold;
+		padding:0;
+		padding-top:10px;
+    }
+	.nav-item {
+	 margin-right:25px;
+ 	 font-size:18px;
+   }
+  
+   /*PROJECT*/
+	.project{
+		font-size:2em;
+	}
+	.lightbox .lb-image{
+	 width:500px !important;
+	 height:500px !important;
+ }
+}
+
+@media (min-width:992px) and (max-width:1199px){
+	
+	
+	/*PROJECT*/
+	.project{
+		font-size:2em;
+	}
+	.lightbox .lb-image{
+	 width:500px !important;
+	 height:500px !important;
+ }
+}
+@media (min-width:1200px){
+	/*PROJECT*/
+	.project{
+		font-size:2em;
+	}
+}
