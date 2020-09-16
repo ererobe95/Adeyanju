@@ -69,9 +69,9 @@ body {
             height: 350px;
 			
         }
-		.content h5{
-			color:white;
-			font-weight:800;
+		.content h6{
+			color:black;
+			font-weight:600;
 
 		}
         button{
