@@ -1,3 +1,3 @@
 function slide(event){
-	document.querySelector('.content').className='animate__animated animate__bounceOutLeft';
+	document.getElementById("but").className='animate__animated animate__bounceOutLeft';
 }
