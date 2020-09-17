@@ -155,7 +155,7 @@ body {
 
 .navbar .navbar-nav > li > a:hover {
     color: black;
-    background-color: white;
+    background-color: #f1eee4;
 }
 
 .navbar .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
