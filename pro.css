@@ -50,7 +50,7 @@ body {
             width: 100%;
             background-image: url("images/land.jpg");
             background-size: cover;
-	    filter: blur(1px);
+	    filter: blur(7px);
             background-repeat: no-repeat;
             background-position: center;
             display: block;
@@ -70,8 +70,8 @@ body {
 			
         }
 		.content h6{
-			color:#446e9b;
-			font-weight:700;
+			color:white;
+			font-weight:800;
 
 		}
         button{
