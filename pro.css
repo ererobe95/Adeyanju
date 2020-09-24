@@ -347,6 +347,12 @@ i {
 			transition:all ease;
         }
 	
+	.content h6{
+			color:white;
+			font-weight:600;
+			font-size: 13px;
+
+		}
 	.services i{
 			font-size: 30px;
 		}
