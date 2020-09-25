@@ -293,6 +293,16 @@ i {
 	 display:inline;
  }
 	
+.about{
+	color: black;
+	margin-top: 20px;
+	font-family: arial;
+}
+
+.about-page{
+	margin-top: 20px;
+}
+
 @media only screen and (max-width:575px){
 	
 	#body {
@@ -431,6 +441,10 @@ i {
 	.copy{
 		font-size: 13px;
 	}
+	.about{
+	  font-size:15.5px;
+  }
+
 }
 
 
