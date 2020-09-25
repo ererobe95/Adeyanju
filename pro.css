@@ -297,10 +297,12 @@ i {
 	color: black;
 	margin-top: 20px;
 	font-family: arial;
+	text-decoration: none;
 }
 
 .about-page{
 	margin-top: 20px;
+	text-decoration: none;
 }
 
 @media only screen and (max-width:575px){
@@ -442,7 +444,7 @@ i {
 		font-size: 13px;
 	}
 	.about{
-	  font-size:15.5px;
+	  font-size: 12px;
   }
 
 }
