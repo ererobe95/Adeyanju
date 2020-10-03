@@ -185,6 +185,9 @@ i {
 .nav-item i{
 	color:blue;
 }
+.nav-item i:nth-child(3){
+        color: green;
+}
 
 .nav-item .dropdown-menu{
 	   background-color:black;
