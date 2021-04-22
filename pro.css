@@ -182,13 +182,13 @@ i {
 	color:white;
 }
 
-.nav-item span i{
+.nav-item i{
 	color:blue;
 	margin: 8px;
 }
-/*.nav-item i:last-child{
+.nav-item i:last-child{
         color: green;
-}*/
+}
 
 .nav-item .dropdown-menu{
 	   background-color:black;
